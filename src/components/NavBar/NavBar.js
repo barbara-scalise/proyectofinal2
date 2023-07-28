@@ -4,33 +4,33 @@ import { NavLink, Link } from "react-router-dom";
 const NavBar = () => {
   return (
     <nav>
-      <Link to="/" class="button is-primary">
-        <h3>Ecomm</h3>
+      <Link to="/" className="button is-primary">
+        <h3>SC</h3>
       </Link>
       <div>
         <NavLink
-          to={"/category/juguetes"}
-          class="button is-primary"
+          to={"/category/carteras"}
+          classN="button is-primary"
           className={({ isActive }) => (isActive ? "ActiveOption" : "Option")}
         >
           Carteras
         </NavLink>
         <NavLink
-          to={"/category/vinchas"}
+          to={"/category/mochilas"}
           class="button is-primary"
           className={({ isActive }) => (isActive ? "ActiveOption" : "Option")}
         >
           Mochilas
         </NavLink>
         <NavLink
-          to={"/category/decoracion"}
+          to={"/category/riñoneras"}
           class="button is-primary"
           className={({ isActive }) => (isActive ? "ActiveOption" : "Option")}
         >
           Riñoneras
         </NavLink>
         <NavLink
-          to={"/category/decoracion"}
+          to={"/category/billeteras"}
           class="button is-primary"
           className={({ isActive }) => (isActive ? "ActiveOption" : "Option")}
         >
