@@ -26,7 +26,8 @@ const products = [
     description:
       "Bandolera con broche magnético.1 bolsillo externo con broche magnético.1 compartimiento internos con cierre. 2 compartimientos internos sin cierre.1 bolsillo interno con cierre.Herrajes plateados.",
     category: "Mujer",
-    image: "./img/francesa.jpg",
+    image:
+      "https://tropea.com.ar/francesca-32196dc9635239fb968ed7db7e9871ba.html",
     stock: 11,
   },
 
